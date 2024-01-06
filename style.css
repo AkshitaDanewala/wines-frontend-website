@@ -1,0 +1,783 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.pg1{
+    height: 100vh;
+    width: 100%;
+background-color: black;
+    background-image: url("https://t4.ftcdn.net/jpg/02/50/14/75/360_F_250147570_iv9WwAZ7fsAo6NacVtcmfMKWdg1C0R0Y.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:start;
+    position: relative;
+    padding: 0 3vmax;
+    
+}
+nav{
+    height: 10vh;
+    width: 100%;
+  background-color: black;
+  border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 0 2vmax;
+color: white;
+}
+nav >h1{
+   
+    font-family: "Metal Mania";
+    font-size: 3vmax;
+}
+ul{
+    display: flex;
+}
+ul li{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 1.3vmax;
+   margin: 0 1vmax;
+   list-style: none;
+}
+nav >button{
+padding: 0.6vmax 1vmax;
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.4vmax;
+background-color: red;
+border-radius: 0.5vmax;
+color: white;
+}
+
+.bottleimg{
+    height: 75vh;
+    width: 12vw;
+    position: absolute;
+    top: 17%;
+    left: 65%;
+}
+.pg1 >h2{
+    font-size: 6vmax;
+color: white;
+margin-left: 2vmax;
+margin-top: 3vmax;
+text-align: center;
+}
+.pg1 >h3{
+    font-size: 15vmax;
+    /* color: rgba(255, 255, 255, 0.243); */
+    color: rgba(255, 255, 255, 0.218);
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3vmax;
+  margin-left: 3vmax;
+
+}
+.pg1 >p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+padding: 0 2vmax;
+margin-top: -13vmax;
+margin-left: 5vmax;
+width: 45vw;
+text-align: center;
+}
+.pg1 >button{
+    margin-left: 22vmax;
+    margin-top: 1vmax;
+    padding: 0.6vmax 1vmax;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    font-weight: bold;
+    border-radius: 0.5vmax;
+}
+
+/* ------------------------------pg1 end---------------------------------------- */
+
+
+.pg2{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url("https://media.istockphoto.com/id/1300119590/photo/particles-in-the-dark-abstract-background-with-copy-space-blue-water-design.webp?b=1&s=170667a&w=0&k=20&c=L21eEuZupfS_ewPd-ygfhv-hpsPzWgxMsJjy71bHJRI="); */
+  
+    /* background-image: url("https://media.istockphoto.com/id/1171506418/photo/sea-wave-abstract-navy-blue-black-neon-pattern-moon-light-silk-wavy-dark-texture-night-beach.webp?b=1&s=170667a&w=0&k=20&c=xYx7iKIfOCdkXCBoCTmht53WK6bKWrbSUwWsdBWB8xE="); */
+    /* background-image: url("https://media.istockphoto.com/id/1287121458/photo/background-navy-blue-black-grunge-textured-abstract-stucco-concrete-dark-wall-minimalism.webp?b=1&s=170667a&w=0&k=20&c=ExZelueK0OP67tKnMIKzXB3-y8aQgh8x0U7aoBRhBZI="); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+}
+
+.pg2-content{
+    height: 68vh;
+    width: 45vw;
+    /* border: 2px solid wheat; */
+   
+    
+}
+.pg2-content >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    color: rgb(174, 174, 174);
+}
+span{
+    font-family: "Metal Mania";
+    font-size: 4vmax;
+    color: red;
+}
+.pg2-content >h2{
+   font-family: Arial, Helvetica, sans-serif;
+     font-size: 2.5vmax;
+     color: red;
+     margin-top: 2vmax;
+}
+.pg2-content >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    color: white;
+    margin-top: 1vmax;
+    line-height: 1.5vmax;
+
+}
+.pg2-content >button{
+padding: 0.6vmax 1vmax;
+border: none;
+background-color: white;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.3vmax;
+border-radius: 0.5vmax;
+margin-top: 2vmax;
+}
+.pg2-content >h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    margin-top: 5vmax;
+    margin-left: 18vmax;
+    color: red;
+}
+ .arrow{
+    font-size: 2vmax;
+    height: 10vh;
+    width: 5vw;
+    border: 2px solid white;
+    border-radius: 10vmax;
+  
+}
+.pg2-img{
+    height: 85vh;
+    width: 48vw;
+    /* border: 2px solid wheat; */
+    background-image: url("https://images.ctfassets.net/hpovnq7pfzcg/30KiDI9TiHd7EvCXVhu8ex/8cd13607ebdc5b95ec524a712f0069cd/QLCS-12893_QW_October_Homepage_Bundles_Onboard-Red_355x270_V1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------pg2 end------------------------------------- */
+
+.pg3{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 2vmax;
+    padding-left: 4vmax;
+    padding-right: 4vmax;
+
+}
+.pg3-head{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    padding: 0 2vmax;
+}
+.pg3-head >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmax;
+    color: white;
+}
+.servicebox{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid white; */
+margin-top: 2vmax;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.servicebox-img{
+    height: 93%;
+    width: 30%;
+    position: absolute;
+left: 35%;
+top: 212%;
+    /* border: 2px solid white; */
+}
+.servicebox-img >img{
+    height: 105%;
+    width: 100%;
+transform: rotate(30deg);
+/* background-color: red; */
+/* filter: drop-shadow(2px); */
+
+}
+
+
+
+
+.servicebox1{
+    height: 78vh;
+    width: 27vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.servicebox1-top{
+    height: 36vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    border-radius: 1vmax;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+padding: 0 1vmax;
+cursor: pointer;
+box-shadow:  0 0 10px white;
+
+
+}
+.servicebox1-top >h2, .servicebox1-bottom >h2, .servicebox3-top >h2, .servicebox3-bottom >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.3vmax;
+}
+.servicebox1-top >img, .servicebox1-bottom >img, .servicebox3-top >img, .servicebox3-bottom >img{
+    height: 8vh;
+    width: 4vw;
+    border-radius: 10vmax;
+}
+.servicebox1-top >p, .servicebox1-bottom >p, .servicebox3-top >p, .servicebox3-bottom >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    text-align: center;
+    color: white;
+}
+.servicebox1-top-front, .servicebox1-bottom-front, .servicebox3-top-front, .servicebox3-bottom-front{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+ transition: all ease 1s;
+ top: 0%;
+ cursor: pointer;
+ border-radius: 1vmax;
+
+
+  
+}
+.servicebox1-top-front >h2, .servicebox1-bottom-front >h2, .servicebox3-top-front >h2, .servicebox3-bottom-front >h2{
+font-size: 3vmax;
+font-family: Arial, Helvetica, sans-serif;
+}
+.servicebox1-top-front >h4, .servicebox1-bottom-front >h4, .servicebox3-top-front >h4, .servicebox3-bottom-front >h4{
+    font-size: 1.3vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin-top: 0.5vmax;
+    }
+    .close1, .close2, .close3, .close4{
+    font-size: 2.5vmax;
+    color: red;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    }
+
+
+.servicebox1-bottom{
+    height: 36vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+padding: 0 1vmax;
+cursor: pointer;
+border-radius: 1vmax;
+box-shadow:  0 0 10px white;
+
+
+}
+/* .servicebox2{
+    height: 78vh;
+    width: 20vw;
+    border: 2px solid white;
+background-color: pink;
+position: relative;
+
+} */
+
+
+.servicebox3{
+    height: 78vh;
+    width: 27vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.servicebox3-top{
+    height: 36vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+padding: 0 1vmax;
+cursor: pointer;
+border-radius: 1vmax;
+box-shadow:  0 0  10px white;
+
+
+}
+.servicebox3-bottom{
+    height: 36vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1vmax;
+    cursor: pointer;
+    border-radius: 1vmax;
+box-shadow:  0 0 10px white;
+}
+
+/* --------------------------pg3 end--------------------------------------- */
+
+
+.pg4{
+    height: 110vh;
+    width: 100%;
+    /* background-image: url("https://media.istockphoto.com/id/1171506418/photo/sea-wave-abstract-navy-blue-black-neon-pattern-moon-light-silk-wavy-dark-texture-night-beach.webp?b=1&s=170667a&w=0&k=20&c=xYx7iKIfOCdkXCBoCTmht53WK6bKWrbSUwWsdBWB8xE="); */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.pg4-head{
+    height: 10vh;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+}
+.pg4-head >h1{
+    font-size: 2.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ .pg4-head >input{
+padding: 0.5vmax  2vmax;
+width: 30vw;
+/* font-family: Arial, Helvetica, sans-serif; */
+font-size: 1.1vmax;
+
+}
+.shopbox{
+    height: 95vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    margin-top: 1vmax;
+
+}
+.shopbox-top{
+    height: 47vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+padding: 0 2vmax;
+
+}
+
+.shopbox-bottom{
+    height: 47vh;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    padding: 0 2vmax;
+
+}
+.shopbox-top >.box{
+height: 43vh;
+width: 22vw;
+/* border: 2px solid white; */
+margin: 1vmax 1vmax;
+display: flex;
+/* background-color: pink; */
+
+
+}
+
+.shopbox-bottom >.box{
+    height: 43vh;
+    width: 22vw;
+    /* border: 2px solid white; */
+    margin: 1vmax 1vmax;
+    display: flex;
+    /* background-color: pink; */
+
+    
+    }
+
+.wineimg1{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+    background-image: url("https://www.stjameswinery.com/wp-content/uploads/2023/03/Strawberry-Sweet-Wine.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.wineimg2{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+    background-image: url("https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/he8/hef/11941392711710.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.wineimg3{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+    background-image: url("https://akbergwines.com/wp-content/uploads/2020/10/apple.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.wineimg4{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white;  */
+    background-image: url("https://www.totalwine.com/dynamic/x1000,sq/media/sys_master/twmmedia/ha4/h6a/14261353021470.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+.wineimg5{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+    background-image: url(" https://www.lynfredwinery.com/wp-content/uploads/2021/10/Lynfred-Wine-2021-015.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+.wineimg6{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+   background-image: url("https://www.wineanatolia.com/wp-content/uploads/2021/06/Kutman-Reserv-Merlot-Red-Wine-450x450.png.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+.wineimg7{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+    /* background-image: url("https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/h08/h9a/14015308398622.png"); */
+    background-image: url("https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/h69/h4d/10829799948318.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+.wineimg8{
+    height: 100%;
+    width: 10vw;
+    /* border: 2px solid white; */
+    background-image: url("https://www.lynfredwinery.com/wp-content/uploads/2021/10/Lynfred-Wine-2021-008.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+.winecontent{
+    height: 100%;
+    width: 12vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+justify-content: center;
+}
+.winecontent >h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vmax;
+}
+.winecontent >h4{
+    color: rgba(255, 255, 0, 0.577);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    margin-top: 0.5vmax;
+}
+
+.winecontent >p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vmax;
+    margin-top: 1vmax;
+}
+.winecontent >button{
+    padding: 0.6vmax 1vmax;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    background-color: red;
+    margin-top: 1.5vmax;
+    color: white;
+
+}
+
+/* -----------------------------pg4 end----------------------------------- */
+
+.pg5{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(4,4,4);
+    background-image: url("https://media.istockphoto.com/id/496353102/photo/glasses-of-champagne-with-splash.jpg?s=612x612&w=0&k=20&c=YA1iGnFZWslZByNvjbHiYgPGtC_-WsrSkoicELBD2xI=");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    padding: 0 8vmax;
+    color: white;
+}
+
+form{
+    height: 78vh;
+    width: 40vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+form >h1{
+    margin-bottom: 2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+}
+input{
+   height: 6vh;
+   width: 30vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    text-align: center;
+    border: none;
+    border-radius: 0.5vmax;
+   margin: 0.6vmax 0;
+
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    text-align: center;
+    border: none;
+    border-radius: 0.5vmax;
+}
+
+form >button{
+    padding: 0.6vmax 2.4vmax;
+    border: none;
+    border-radius: 0.5vmax;
+    font-size: 1.3vmax;
+    color: white;
+    background-color: red;
+}
+
+/* --------------------------------pg5 end--------------------------------- */
+
+footer{
+    height: 79vh;
+    width: 100%;
+    /* background-image: url("https://media.istockphoto.com/id/1171506418/photo/sea-wave-abstract-navy-blue-black-neon-pattern-moon-light-silk-wavy-dark-texture-night-beach.webp?b=1&s=170667a&w=0&k=20&c=xYx7iKIfOCdkXCBoCTmht53WK6bKWrbSUwWsdBWB8xE="); */
+background-size: cover;
+background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    /* background-color: white; */
+}
+.footer-left{
+    height: 100%;
+    width: 50%;
+/* background-color: pink; */
+padding: 2vmax 2vmax;
+}
+.footer-left >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vmax;
+    color: white;
+    margin-top: -1vmax;
+}
+
+.footer-left >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    color: white;
+}
+.footer-form{
+    height: 55vh;
+    width: 40vw;
+    /* border: 2px solid black; */
+   margin-top: 2vmax;
+}
+.footer-form >h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+}
+.footer-form >button{
+    padding: 0.6vmax 3vmax;
+    font-size: 1.5vmax;
+    text-align: center;
+  border: 2px solid black;
+  width: 30vw;
+  margin-top: 1vmax;
+}
+.paraform{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vmax;
+    margin-top: 1vmax;
+    color: white;
+}
+
+.footer-form >h5{
+    color: white;
+}
+.footer-form >h6{
+    margin-top: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    color: white;
+
+}
+.icons{
+    height: 8vh;
+    width: 25vw;
+    /* border: 2px solid white; */
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vmax;
+}
+
+.icons >i{
+    color: white;
+    font-size: 2vmax;
+
+}
+.footer-right{
+    height: 100%;
+    width: 50%;
+/* background-color: yellow; */
+display: flex;
+justify-content: space-between;
+}
+.footer-right-box1, .footer-right-box2, .footer-right-box3{
+    height: 31vh;
+    width: 16vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-right-box1 >h1, .footer-right-box2 >h1, .footer-right-box3 >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    font-weight: 900;
+    color: white;
+}
+
+.footer-right-box1 >h6, .footer-right-box2 >h6, .footer-right-box3 >h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vmax;
+  color: rgb(192, 192, 192);
+ padding-top: 1vmax;
+}
+.copyright{
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 3vmax;
+}
+.copyright >h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+}
+.copyright >span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    font-weight: bold;
+}
